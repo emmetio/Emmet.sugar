@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<action-recipes>
+	<action id="io.emmet.expandAbbreviation" category="actions.text.Emmet/emmet.Common/1">
+		<class>EMGenericAction</class>
+		<title>Expand Abbreviation</title>
+		<key-equivalent>control e</key-equivalent>
+		<setup>
+			<name>expand_abbreviation</name>
+		</setup>
+	</action>
+	<action id="io.emmet.wrapWithAbbreviation" category="actions.text.Emmet/emmet.Common/2">
+		<class>EMGenericAction</class>
+		<title>Wrap With Abbreviation</title>
+		<key-equivalent>control a</key-equivalent>
+		<setup>
+			<name>wrap_with_abbreviation</name>
+		</setup>
+	</action>
+	<action id="io.emmet.toggleComment" category="actions.text.Emmet/emmet.Common">
+		<class>EMGenericAction</class>
+		<title>Toggle Comment</title>
+		<language-context>html, css</language-context>
+		<key-equivalent>command \</key-equivalent>
+		<setup>
+			<name>toggle_comment</name>
+		</setup>
+	</action>
+	<action id="io.emmet.nextEditPoint" category="actions.text.Emmet/emmet.Common">
+		<class>EMGenericAction</class>
+		<title>Next Edit Point</title>
+		<key-equivalent>control arrow-right</key-equivalent>
+		<setup>
+			<name>next_edit_point</name>
+		</setup>
+	</action>
+	<action id="io.emmet.previousEditPoint" category="actions.text.Emmet/emmet.Common">
+		<class>EMGenericAction</class>
+		<title>Previous Edit Point</title>
+		<key-equivalent>control arrow-left</key-equivalent>
+		<setup>
+			<name>prev_edit_point</name>
+		</setup>
+	</action>
+	<action id="io.emmet.selectNextItem" category="actions.text.Emmet/emmet.Common">
+		<class>EMGenericAction</class>
+		<title>Select Next Item</title>
+		<key-equivalent>control shift arrow-right</key-equivalent>
+		<setup>
+			<name>select_next_item</name>
+		</setup>
+	</action>
+	<action id="io.emmet.selectPreviousItem" category="actions.text.Emmet/emmet.Common">
+		<class>EMGenericAction</class>
+		<title>Select Previous Item</title>
+		<key-equivalent>control shift arrow-left</key-equivalent>
+		<setup>
+			<name>select_previous_item</name>
+		</setup>
+	</action>
+	<action id="io.emmet.mergeLines" category="actions.text.Emmet/emmet.Common">
+		<class>EMGenericAction</class>
+		<title>Merge Lines</title>
+		<key-equivalent>control m</key-equivalent>
+		<setup>
+			<name>merge_lines</name>
+		</setup>
+	</action>
+	<action id="io.emmet.base64" category="actions.text.Emmet/emmet.Common">
+		<class>EMGenericAction</class>
+		<title>Encode/Decode data:URL image</title>
+		<key-equivalent>control shift i</key-equivalent>
+		<setup>
+			<name>encode_decode_data_url</name>
+		</setup>
+	</action>
+	<action id="io.emmet.updateImageSize" category="actions.text.Emmet/emmet.Common">
+		<class>EMGenericAction</class>
+		<title>Update Image Size</title>
+		<key-equivalent>control i</key-equivalent>
+		<setup>
+			<name>update_image_size</name>
+		</setup>
+	</action>
+
+	<!-- HTML-only actions -->
+	<action id="io.emmet.matchPairInward" category="actions.text.Emmet/emmet.HTML">
+		<class>EMGenericAction</class>
+		<title>Match Pair Tag (inward)</title>
+		<setup>
+			<name>match_pair_inward</name>
+		</setup>
+	</action>
+	<action id="io.emmet.matchPairOutward" category="actions.text.Emmet/emmet.HTML">
+		<class>EMGenericAction</class>
+		<title>Match Pair Tag (outward)</title>
+		<key-equivalent>control shift d</key-equivalent>
+		<setup>
+			<name>match_pair_outward</name>
+		</setup>
+	</action>
+	<action id="io.emmet.goToMatchingPair" category="actions.text.Emmet/emmet.HTML">
+		<class>EMGenericAction</class>
+		<title>Go To Matching Tag Pair</title>
+		<setup>
+			<name>matching_pair</name>
+		</setup>
+	</action>
+	<action id="io.emmet.removeTag" category="actions.text.Emmet/emmet.HTML">
+		<class>EMGenericAction</class>
+		<title>Remove Tag</title>
+		<key-equivalent>command '</key-equivalent>
+		<setup>
+			<name>remove_tag</name>
+		</setup>
+	</action>
+	<action id="io.emmet.splitJoinTag" category="actions.text.Emmet/emmet.HTML">
+		<class>EMGenericAction</class>
+		<title>Split/Join Tag Declaration</title>
+		<key-equivalent>command shift '</key-equivalent>
+		<setup>
+			<name>split_join_tag</name>
+		</setup>
+	</action>
+
+	<!-- CSS-only actions -->
+	<action id="io.emmet.reflectValue" category="actions.text.Emmet/emmet.CSS">
+		<class>EMGenericAction</class>
+		<title>Reflect Value</title>
+		<key-equivalent>control r</key-equivalent>
+		<setup>
+			<name>reflect_css_value</name>
+		</setup>
+	</action>
+
+	<!-- Number-specific actions -->
+	<action id="io.emmet.evaluateMath" category="actions.text.Emmet/emmet.Numbers">
+		<class>EMGenericAction</class>
+		<title>Evaluate Math Expression</title>
+		<key-equivalent>command y</key-equivalent>
+		<setup>
+			<name>evaluate_math_expression</name>
+		</setup>
+	</action>
+	<action id="io.emmet.incrementBy1" category="actions.text.Emmet/emmet.Numbers">
+		<class>EMGenericAction</class>
+		<title>Increment Number by 1</title>
+		<key-equivalent>control arrow-up</key-equivalent>
+		<setup>
+			<name>increment_number_by_1</name>
+		</setup>
+	</action>
+	<action id="io.emmet.decrementBy1" category="actions.text.Emmet/emmet.Numbers">
+		<class>EMGenericAction</class>
+		<title>Decrement Number by 1</title>
+		<key-equivalent>control arrow-down</key-equivalent>
+		<setup>
+			<name>decrement_number_by_1</name>
+		</setup>
+	</action>
+	<action id="io.emmet.incrementBy10" category="actions.text.Emmet/emmet.Numbers">
+		<class>EMGenericAction</class>
+		<title>Increment Number by 10</title>
+		<key-equivalent>control shift arrow-up</key-equivalent>
+		<setup>
+			<name>increment_number_by_10</name>
+		</setup>
+	</action>
+	<action id="io.emmet.decrementBy10" category="actions.text.Emmet/emmet.Numbers">
+		<class>EMGenericAction</class>
+		<title>Decrement Number by 10</title>
+		<key-equivalent>control shift arrow-down</key-equivalent>
+		<setup>
+			<name>decrement_number_by_10</name>
+		</setup>
+	</action>
+	<action id="io.emmet.incrementBy01" category="actions.text.Emmet/emmet.Numbers">
+		<class>EMGenericAction</class>
+		<title>Increment Number by 0.1</title>
+		<key-equivalent>alt arrow-up</key-equivalent>
+		<setup>
+			<name>increment_number_by_01</name>
+		</setup>
+	</action>
+	<action id="io.emmet.decrementBy1" category="actions.text.Emmet/emmet.Numbers">
+		<class>EMGenericAction</class>
+		<title>Decrement Number by 0.1</title>
+		<key-equivalent>alt arrow-down</key-equivalent>
+		<setup>
+			<name>decrement_number_by_01</name>
+		</setup>
+	</action>
+	<action id="io.emmet.preferences" category="actions.text.Emmet/emmet.Preferences">
+		<class>EMPreferences</class>
+		<title>Preferences...</title>
+	</action>
+</action-recipes>

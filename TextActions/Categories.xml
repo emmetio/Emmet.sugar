@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<action-categories>
+	<!-- Generic categories -->
+	<category id="actions.text.Emmet" show="sub">
+		<title>Emmet</title>
+	</category>
+	<category id="emmet.HTML" show="sub">
+		<title>HTML</title>
+	</category>
+	<category id="emmet.CSS" show="sub">
+		<title>CSS</title>
+	</category>
+	<category id="emmet.Numbers" show="sub">
+		<title>Number</title>
+	</category>
+	<category id="emmet.Common" show="inline"></category>
+	<category id="emmet.Preferences" show="inline separated"></category>
+</action-categories>
