@@ -6,7 +6,7 @@
 
 Clone project into `~/Library/Application Support/Espresso/Sugars/` and restart Espresso.
 
-- or -
+or
 
 1. [Download](/emmetio/Emmet.sugar/archive/master.zip) this project, unpack it and rename extracted folder to `Emmet.sugar`.
 2. Double-click on `Emmet.sugar` to install.
