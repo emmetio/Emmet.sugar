@@ -8,7 +8,7 @@ Clone project into `~/Library/Application Support/Espresso/Sugars/` and restart 
 
 or
 
-1. [Download](/emmetio/Emmet.sugar/archive/master.zip) plugin.
+1. [Download](https://github.com/emmetio/Emmet.sugar/archive/master.zip) plugin.
 2. Unpack it.
 3. Rename extracted folder to `Emmet.sugar`.
 4. Double-click on `Emmet.sugar` to install.
