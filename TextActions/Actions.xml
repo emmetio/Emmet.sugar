@@ -193,4 +193,8 @@
 		<class>EMPreferences</class>
 		<title>Preferences...</title>
 	</action>
+	<action id="io.emmet.updates" category="actions.text.Emmet/emmet.Preferences">
+		<class>EMUpdates</class>
+		<title>Check for updates...</title>
+	</action>
 </action-recipes>
