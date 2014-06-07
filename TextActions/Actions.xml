@@ -3,7 +3,7 @@
 	<action id="io.emmet.expandAbbreviation" category="actions.text.Emmet/emmet.Common/1">
 		<class>EMGenericAction</class>
 		<title>Expand Abbreviation</title>
-		<key-equivalent>control e</key-equivalent>
+		<key-equivalent>tab</key-equivalent>
 		<setup>
 			<name>expand_abbreviation</name>
 		</setup>
